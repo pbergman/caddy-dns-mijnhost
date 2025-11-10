@@ -4,7 +4,9 @@ go 1.24.4
 
 require (
 	github.com/caddyserver/caddy/v2 v2.10.0
-	github.com/libdns/mijnhost v1.1.2
+	github.com/libdns/mijnhost v1.1.3
+	github.com/pbergman/provider v1.0.1
+	go.uber.org/zap v1.27.0
 )
 
 require (
@@ -22,7 +24,6 @@ require (
 	github.com/miekg/dns v1.1.64 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/onsi/ginkgo/v2 v2.23.3 // indirect
-	github.com/pbergman/provider v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.21.1 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.63.0 // indirect
@@ -32,7 +33,6 @@ require (
 	github.com/zeebo/blake3 v0.2.4 // indirect
 	go.uber.org/mock v0.5.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.27.0 // indirect
 	go.uber.org/zap/exp v0.3.0 // indirect
 	golang.org/x/crypto v0.36.0 // indirect
 	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 // indirect
